@@ -25,7 +25,7 @@ This notebook explores the relationship between macroeconomic factors (like inte
 
 ---
 
-## ⚙️ Key Features
+##  Key Features
 
 - CPI-adjusted prices and values
 - Lagged target (`next_quarter`) with `.shift()`
@@ -36,7 +36,7 @@ This notebook explores the relationship between macroeconomic factors (like inte
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 - `*.csv`: Zillow and FRED CSVs (expect local files like `MORTGAGE30US.csv`, `CPIAUCSL.csv`, etc.)
 - `housing_predictor.ipynb`: Jupyter Notebook with full workflow
@@ -70,7 +70,7 @@ To run this project locally:
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 - pandas
 - numpy
