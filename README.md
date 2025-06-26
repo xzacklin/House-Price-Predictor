@@ -4,7 +4,7 @@ This notebook explores the relationship between macroeconomic factors (like inte
 
 ---
 
-## 📊 Data Sources
+## Data Sources
 
 - **Zillow**: Weekly median sale prices & home value index across U.S. metros
 - **FRED (Federal Reserve)**:
@@ -14,7 +14,7 @@ This notebook explores the relationship between macroeconomic factors (like inte
 
 ---
 
-## 🧠 What It Does
+## What It Does
 
 - Merges housing and economic time series into one clean DataFrame
 - Adjusts housing prices for inflation (CPI-adjusted values)
@@ -43,21 +43,21 @@ This notebook explores the relationship between macroeconomic factors (like inte
 
 ---
 
-## 🧪 Accuracy (as tested)
+## Accuracy (as tested)
 
 - Accuracy using raw predictors: ~59%
 - Accuracy with rolling normalized features: ~64.7%
 
 ---
 
-## 📈 Sample Visuals
+## Sample Visuals
 
 - Scatter plot of predictions (`green` for correct, `red` for incorrect)
 - Bar chart of feature importances based on permutation score
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run this project locally:
 
